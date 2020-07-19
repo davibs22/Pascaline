@@ -65,12 +65,25 @@ body {
     height: 171px;
     width: auto;
     -webkit-app-region: drag;
+    text-align: right;
 }
 .keys-content {
     height: 42px;
     width: auto;
     margin-top: 12px;
     user-select: none;
+}
+.label-equation {
+    color: #F4AB41;
+    font-size: 16px;
+    margin-bottom: 41px;
+    font-family: Helvetica;
+}
+.label-result {
+    color: #F4AB41;
+    font-size: 54px;
+    margin-bottom: 21px;
+    font-family: Helvetica;
 }
 .button-1{
     height: 42px;
