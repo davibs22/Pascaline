@@ -51,6 +51,7 @@ body {
     padding-left: 13px;
     padding-top: 11px;
     padding-bottom: 11px;
+    -webkit-app-region: drag;
 }
 
 .calculator-content{
@@ -58,15 +59,18 @@ body {
     padding-right: 13px;
     width: auto;
     height: auto;
+    user-select: none;
 }
 .result-content {
     height: 171px;
     width: auto;
+    -webkit-app-region: drag;
 }
 .keys-content {
     height: 42px;
     width: auto;
     margin-top: 12px;
+    user-select: none;
 }
 .button-1{
     height: 42px;
