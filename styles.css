@@ -1,0 +1,131 @@
+body {
+    overflow-x: hidden; /*Desativar Scrollbar eixo X*/
+    overflow-y: hidden; /*Desativar Scrollbar eixo Y*/
+    margin: 0px;
+}
+
+.background-night {
+    background-color: #555A60;
+    width: 240px;
+    height: 497px;
+    border-radius: 20px;
+}
+.button-close-mac {
+    width: 13px;
+    height: 13px;
+    border-radius: 11px;
+    background-color: #D9534F;
+    border: 0.5px solid;
+    border-color: #CB2E25;
+    padding: 0px;
+    outline: none;
+    margin-right: 3px;
+}
+.button-minimize-mac {
+    width: 13px;
+    height: 13px;
+    border-radius: 11px;
+    background-color: #F0AD4E;
+    border: 0.5px solid;
+    border-color: #EE9800;
+    padding: 0px;
+    outline: none;
+    margin-right: 3px;
+}
+.button-expander-mac {
+    width: 13px;
+    height: 13px;
+    border-radius: 11px;
+    background-color: #5CB85C;
+    border: 0.5px solid;
+    border-color: #449D44;
+    padding: 0px;
+    outline: none;
+    margin-right: 3px;
+}
+.window-bar-control{
+    height: 13px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    user-select: none;
+    padding-left: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.calculator-content{
+    padding-left: 14px;
+    padding-right: 13px;
+    width: auto;
+    height: auto;
+}
+.result-content {
+    height: 171px;
+    width: auto;
+}
+.keys-content {
+    height: 42px;
+    width: auto;
+    margin-top: 12px;
+}
+.button-1{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: #555A60;
+    user-select: none;
+    color: #F4AB41;
+    font-size: 17px;
+}
+.button-1:hover {
+    background-color: #70757B;
+}
+.button-2{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: #555A60;
+    user-select: none;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.button-2:hover {
+    background-color: #70757B;
+}
+.button-3{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: #6D6A63;
+    user-select: none;
+    color: #F4AB41;
+    font-size: 17px;
+}
+.button-3:hover {
+    background-color: #918057;
+    color: #FFFFFF;
+}
+.button-4{
+    height: 42px;
+    width: 99px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: #6D6A63;
+    user-select: none;
+    color: #F4AB41;
+    font-size: 17px;
+}
+.button-4:hover {
+    background-color: #918057;
+    color: #FFFFFF;
+}
+.space-button{
+    margin-left: 11px;
+}
