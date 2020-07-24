@@ -1,5 +1,6 @@
 var resultTEMP = 0
 var equationTEMP = ""
+var theme = "night"
 
 
 function functionAC() {
@@ -84,4 +85,25 @@ function myFunction(event) {
             functionClick0()
             break;
         }
-  }
+}
+
+function themeMod() {
+    var elem = document.getElementById("buttonTheme");   
+    var pos = elem.style.top;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (pos < 54) {
+            pos++; 
+            elem.style.top = pos + 'px';
+            pos = elem.style.top;
+            theme = "morning" 
+            clearInterval(id);
+        } else if (pos > 37) {
+            pos--; 
+            elem.style.top = pos + 'px';
+            theme = "night"
+            pos = elem.style.top;
+            clearInterval(id);
+        }
+    }
+}
