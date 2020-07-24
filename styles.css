@@ -143,6 +143,21 @@ body {
     background-color: #918057;
     color: #FFFFFF;
 }
+.button-theme {
+    position: absolute;
+    background-color: #555A60;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    left: 16px;
+    top: 54px;
+}
+.button-theme-content {
+    background-color: #F4AB41;
+    height: 36px;
+    width: 19px;
+    border-radius: 10px;
+}
 .space-button{
     margin-left: 11px;
 }
