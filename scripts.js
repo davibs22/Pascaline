@@ -88,6 +88,29 @@ function myFunction(event) {
 }
 
 function themeMod() {
+    if (theme == "night") {
+        themeDay()
+    } else if (theme == "day") {
+        themeNight()
+    }
+}
+function themeDay() {
+    var elem = document.getElementById("buttonTheme");
+    var id = setInterval(frame, 10);   
+    var pos = 37;
+    function frame() {
+        if (pos == 54) {
+            clearInterval(id);
+        } else {
+            pos++; 
+            elem.style.top = pos + 'px'; 
+        }
+    }
+    elem.style.backgroundColor = "#555A60";
+    document.getElementById("buttonThemeContent").style.backgroundColor = "#F4AB41";
+    theme = "day"
+}
+function themeNight() {
     var elem = document.getElementById("buttonTheme");
     var id = setInterval(frame, 10);   
     var pos = 54;
@@ -99,4 +122,7 @@ function themeMod() {
             elem.style.top = pos + 'px'; 
         }
     }
+    elem.style.backgroundColor = "#F4AB41";
+    document.getElementById("buttonThemeContent").style.backgroundColor = "#151F22";
+    theme = "night"
 }

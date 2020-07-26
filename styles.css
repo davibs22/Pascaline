@@ -145,15 +145,15 @@ body {
 }
 .button-theme {
     position: absolute;
-    background-color: #555A60;
+    background-color: #F4AB41;
     height: 15px;
     width: 15px;
     border-radius: 10px;
     left: 16px;
-    top: 54px;
+    top: 37px;
 }
 .button-theme-content {
-    background-color: #F4AB41;
+    background-color: #151F22;
     height: 36px;
     width: 19px;
     border-radius: 10px;
