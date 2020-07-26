@@ -8,7 +8,7 @@
     <title>Pascaline Calculator</title>
 </head>
 <body onkeypress="myFunction(event)">
-    <div class="background-night">
+    <div id="background" class="background-night">
         <div class="window-bar-control">
             <button class="button-close-mac"></button>
             <button class="button-minimize-mac"></button>
@@ -29,33 +29,33 @@
                 </div>
             </div>
             <div class="keys-content">
-                <button class="button-1" onclick="functionAC()">AC</button>
-                <button class="button-1 space-button" onclick="functionPN()">+/-</button>
-                <button class="button-1 space-button" onclick="functionPercentage()">%</button>
-                <button class="button-1 space-button" onclick="functionDivision()">/</button>
+                <button id="buttonACNoSpace" class="button-1" onclick="functionAC()">AC</button>
+                <button id="button+/-Space" class="button-2 space-button" onclick="functionPN()">+/-</button>
+                <button id="button%Space" class="button-2 space-button" onclick="functionPercentage()">%</button>
+                <button id="button/Space" class="button-3 space-button" onclick="functionDivision()">/</button>
             </div>
             <div class="keys-content">
-                <button class="button-2" onclick="functionClick7()">7</button>
-                <button class="button-2 space-button" onclick="functionClick8()">8</button>
-                <button class="button-2 space-button" onclick="functionClick9()">9</button>
-                <button class="button-3 space-button">x</button>
+                <button id="button7NoSpace" class="button-2" onclick="functionClick7()">7</button>
+                <button id="button8Space" class="button-2 space-button" onclick="functionClick8()">8</button>
+                <button id="button9Space" class="button-2 space-button" onclick="functionClick9()">9</button>
+                <button id="buttonxSpace" class="button-3 space-button">x</button>
             </div>
             <div class="keys-content">
-                <button class="button-2" onclick="functionClick4()">4</button>
-                <button class="button-2 space-button" onclick="functionClick5()">5</button>
-                <button class="button-2 space-button" onclick="functionClick6()">6</button>
-                <button class="button-3 space-button">-</button>
+                <button id="button4NoSpace" class="button-2" onclick="functionClick4()">4</button>
+                <button id="button5Space" class="button-2 space-button" onclick="functionClick5()">5</button>
+                <button id="button6Space" class="button-2 space-button" onclick="functionClick6()">6</button>
+                <button id="button-Space" class="button-3 space-button">-</button>
             </div>
             <div class="keys-content">
-                <button class="button-2" onclick="functionClick1()">1</button>
-                <button class="button-2 space-button" onclick="functionClick2()">2</button>
-                <button class="button-2 space-button" onclick="functionClick3()">3</button>
-                <button class="button-3 space-button">+</button>
+                <button id="button1NoSpace" class="button-2" onclick="functionClick1()">1</button>
+                <button id="button2Space" class="button-2 space-button" onclick="functionClick2()">2</button>
+                <button id="button3Space" class="button-2 space-button" onclick="functionClick3()">3</button>
+                <button id="button+Space" class="button-3 space-button">+</button>
             </div>
             <div class="keys-content">
-                <button class="button-2" onclick="functionClick0()">0</button>
-                <button class="button-2 space-button">.</button>
-                <button class="button-4 space-button">=</button>
+                <button id="button0NoSpace" class="button-2" onclick="functionClick0()">0</button>
+                <button id="button.Space" class="button-2 space-button">.</button>
+                <button id="button=Space"class="button-4 space-button">=</button>
             </div>
         </div>
     </div>

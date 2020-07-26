@@ -161,3 +161,69 @@ body {
 .space-button{
     margin-left: 11px;
 }
+
+/*DAY-----------------------------*/
+.background-day{
+    background-color: white;
+    width: 240px;
+    height: 497px;
+    border-radius: 20px;
+}
+.button-1-day{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: white;
+    user-select: none;
+    color: #F4AB41;
+    font-size: 17px;
+}
+.button-1-day:hover {
+    background-color: #E3E8EB;
+}
+.button-2-day{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: white;
+    user-select: none;
+    color: #555A60;
+    font-size: 17px;
+}
+.button-2-day:hover {
+    background-color: #E3E8EB;
+}
+.button-3-day{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: #E3E9EC;
+    user-select: none;
+    color: #555A60;
+    font-size: 17px;
+}
+.button-3-day:hover {
+    background-color: #C7CFD3;
+    color: #555A60;
+}
+.button-4-day{
+    height: 42px;
+    width: 99px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    background-color: #E3E9EC;
+    user-select: none;
+    color: #555A60;
+    font-size: 17px;
+}
+.button-4-day:hover {
+    background-color: #C7CFD3;
+    color: #555A60;
+}

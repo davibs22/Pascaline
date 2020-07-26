@@ -106,8 +106,7 @@ function themeDay() {
             elem.style.top = pos + 'px'; 
         }
     }
-    elem.style.backgroundColor = "#555A60";
-    document.getElementById("buttonThemeContent").style.backgroundColor = "#F4AB41";
+    appDay()
     theme = "day"
 }
 function themeNight() {
@@ -122,7 +121,55 @@ function themeNight() {
             elem.style.top = pos + 'px'; 
         }
     }
-    elem.style.backgroundColor = "#F4AB41";
-    document.getElementById("buttonThemeContent").style.backgroundColor = "#151F22";
+    appNight()
     theme = "night"
+}
+
+function appDay() {
+    document.getElementById("buttonTheme").style.backgroundColor = "#555A60";
+    document.getElementById("buttonThemeContent").style.backgroundColor = "#F4AB41";
+    document.getElementById("background").className = "background-day";
+    document.getElementById("buttonACNoSpace").className = "button-1-day";
+    document.getElementById("button+/-Space").className = "button-2-day space-button";
+    document.getElementById("button%Space").className = "button-2-day space-button";
+    document.getElementById("button/Space").className = "button-3-day space-button";
+    document.getElementById("button9Space").className = "button-2-day space-button";
+    document.getElementById("button8Space").className = "button-2-day space-button";
+    document.getElementById("button7NoSpace").className = "button-2-day";
+    document.getElementById("buttonxSpace").className = "button-3-day space-button";
+    document.getElementById("button4NoSpace").className = "button-2-day";
+    document.getElementById("button5Space").className = "button-2-day space-button";
+    document.getElementById("button6Space").className = "button-2-day space-button";
+    document.getElementById("button-Space").className = "button-3-day space-button";
+    document.getElementById("button1NoSpace").className = "button-2-day";
+    document.getElementById("button2Space").className = "button-2-day space-button";
+    document.getElementById("button3Space").className = "button-2-day space-button";
+    document.getElementById("button+Space").className = "button-3-day space-button";
+    document.getElementById("button0NoSpace").className = "button-2-day";
+    document.getElementById("button.Space").className = "button-2-day space-button";
+    document.getElementById("button=Space").className = "button-4-day space-button";
+}
+function appNight() {
+    document.getElementById("buttonTheme").style.backgroundColor = "#F4AB41";
+    document.getElementById("buttonThemeContent").style.backgroundColor = "#151F22";
+    document.getElementById("background").className = "background-night";
+    document.getElementById("buttonACNoSpace").className = "button-1";
+    document.getElementById("button+/-Space").className = "button-2 space-button";
+    document.getElementById("button%Space").className = "button-2 space-button";
+    document.getElementById("button/Space").className = "button-3 space-button";
+    document.getElementById("button9Space").className = "button-2 space-button";
+    document.getElementById("button8Space").className = "button-2 space-button";
+    document.getElementById("button7NoSpace").className = "button-2";
+    document.getElementById("buttonxSpace").className = "button-3 space-button";
+    document.getElementById("button4NoSpace").className = "button-2";
+    document.getElementById("button5Space").className = "button-2 space-button";
+    document.getElementById("button6Space").className = "button-2 space-button";
+    document.getElementById("button-Space").className = "button-3 space-button";
+    document.getElementById("button1NoSpace").className = "button-2";
+    document.getElementById("button2Space").className = "button-2 space-button";
+    document.getElementById("button3Space").className = "button-2 space-button";
+    document.getElementById("button+Space").className = "button-3 space-button";
+    document.getElementById("button0NoSpace").className = "button-2";
+    document.getElementById("button.Space").className = "button-2 space-button";
+    document.getElementById("button=Space").className = "button-4 space-button";
 }
