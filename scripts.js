@@ -88,22 +88,15 @@ function myFunction(event) {
 }
 
 function themeMod() {
-    var elem = document.getElementById("buttonTheme");   
-    var pos = elem.style.top;
-    var id = setInterval(frame, 10);
+    var elem = document.getElementById("buttonTheme");
+    var id = setInterval(frame, 10);   
+    var pos = 54;
     function frame() {
-        if (pos < 54) {
-            pos++; 
-            elem.style.top = pos + 'px';
-            pos = elem.style.top;
-            theme = "morning" 
+        if (pos == 37) {
             clearInterval(id);
-        } else if (pos > 37) {
+        } else {
             pos--; 
-            elem.style.top = pos + 'px';
-            theme = "night"
-            pos = elem.style.top;
-            clearInterval(id);
+            elem.style.top = pos + 'px'; 
         }
     }
 }
