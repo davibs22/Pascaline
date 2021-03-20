@@ -1,11 +1,11 @@
-# Pascaline - Calculadora  
+# Pascaline - Calculator 
 
 
-## Sobre:
+## About:
 
 A Pascaline é uma calculadora que foi desenvolvida em Javascript utilizando Electron e NodeJS.
 
-### Frameworks e Liguagens:
+### Frameworks and Programming Languages:
 
 1. Javascript
 2. HTML5
@@ -13,7 +13,6 @@ A Pascaline é uma calculadora que foi desenvolvida em Javascript utilizando Ele
 4. Electron
 5. NodeJS
 
-
-### Pré-requisitos:
+### Prerequisite Software:
 
 * Sistema Operacional MAC ou Windows
