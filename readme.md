@@ -1,4 +1,4 @@
-# Pascaline - Calculator 
+> ![Logo Pascaline](https://github.com/davibs22/Pascaline/raw/master/readmeFiles/Logo.png)
 
 
 ## About:
