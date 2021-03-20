@@ -15,7 +15,7 @@ Pascaline is a calculator that was developed using Eletron and NodeJS. A calcula
 
 ### Prerequisite Software:
 
-* Sistema Operacional MAC ou Windows
+* Operational System MAC OS or Windows 10.
 
 ## Screens:
 > ![Screens Pascaline](https://github.com/davibs22/Pascaline/raw/master/readmeFiles/Screens.png)
