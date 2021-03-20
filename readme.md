@@ -3,7 +3,7 @@
 
 ## About:
 
-A calculator with a modern and attractive design, where you can switch between night and day mode.
+Pascaline is a calculator that was developed using Eletron and NodeJS. A calculator with a modern and attractive design, where you can switch between night and day mode.
 
 ### Frameworks and Programming Languages:
 
