@@ -3,7 +3,7 @@
 
 ## About:
 
-A Pascaline é uma calculadora que foi desenvolvida em Javascript utilizando Electron e NodeJS.
+A calculator with a modern and attractive design, where you can switch between night and day mode.
 
 ### Frameworks and Programming Languages:
 
