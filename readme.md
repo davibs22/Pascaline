@@ -2,7 +2,7 @@
 
 ![GitHub Language Count](https://img.shields.io/github/languages/count/davibs22/Pascaline)
 ![Git Top Language](https://img.shields.io/github/languages/top/davibs22/Pascaline)
-![Javascript](https://github.com/davibs22/Pascaline/raw/master/readmeFiles/icons/javascript_icon_130900.svg)
+
 ### About:
 
 Pascaline is a calculator that was developed using Eletron and NodeJS. A calculator with a modern and attractive design, where you can switch between night and day mode.
