@@ -6,7 +6,7 @@ function createWindow () {
 
 
   //carregar o index.html do aplicativo.
-  win.loadFile('index.html')
+  win.loadFile('./src/index.html')
   
   //Bloquear o controle de expandir a tela do usuario
   win.setResizable(false) 
