@@ -5,7 +5,7 @@
 
 ### About:
 
-Pascaline is a calculator that was developed using Eletron and NodeJS. A calculator with a modern and attractive design, where you can switch between night and day mode.
+Pascaline is a calculator developed using Electron and NodeJS. With a modern and attractive design, it allows switching between day and night mode, providing a better user experience. In addition, its friendly and easy-to-use interface makes performing calculations simple and fast. With Pascaline, you can perform basic and advanced calculations, ensuring accuracy and efficiency in your daily tasks.
 
 ### Frameworks and Programming Languages:
 
